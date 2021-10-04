@@ -1,0 +1,79 @@
+#first-page {
+    text-align: center;
+    background-color: white;
+    line-height: 400px;
+}
+
+* {
+    caret-color: transparent;
+}
+
+#second-page {
+
+    width: 100%;
+    height: auto;
+    background-color: white;
+    line-height: 100px;
+}
+
+.image {
+    alignment: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    width: 50%;
+    height: auto;
+}
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.intro-text {
+    font-size: 50px;
+    font-family: 'Caesar Dressing', cursive;
+    text-decoration: none;
+    color: #312d2d;
+    box-shadow: #312d2d;
+    text-shadow:
+            0 0 7px #eaeaea,
+            0 0 42px #ff0000,
+            0 0 82px #a21c1c,
+            0 0 92px #7c0e0e,
+            0 0 102px #d20c2b,
+            0 0 151px #ff0707;
+    animation: blink 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+a.intro-text:hover {
+    color: #b03434;
+    text-shadow:
+            0 0 7px #ff0000,
+            0 0 100px #eaeaea;
+    animation: none;
+
+}
+
+body p {
+    position: center;
+    text-align: center;
+    color: black;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+}
+
+@keyframes blink {
+    to{
+        text-shadow:
+                0 0 7px #312d2d,
+                0 0 30px #ff0000,
+                0 0 50px #a21c1c,
+                0 0 60px #7c0e0e,
+                0 0 90px #ff0707;
+
+    }
+}
