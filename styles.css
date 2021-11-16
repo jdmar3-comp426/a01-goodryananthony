@@ -1,0 +1,129 @@
+#first-page {
+    text-align: center;
+    background-color: #FFFF;
+    line-height: 400px;
+}
+
+* {
+    caret-color: transparent;
+}
+
+#second-page {
+    width: 100%;
+    height: auto;
+    background-color: #FFFF;
+}
+
+.image {
+    border: 2px black solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    width: 50%;
+    height: auto;
+}
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.intro-text {
+    font-size: 80px;
+    padding-bottom: 50px;
+    font-family: 'Caesar Dressing', cursive;
+    text-decoration: none;
+    color: #312d2d;
+    text-shadow:
+            0 0 7px #eaeaea,
+            0 0 42px #ff0000,
+            0 0 82px #a21c1c,
+            0 0 92px #7c0e0e,
+            0 0 102px #d20c2b,
+            0 0 151px #ff0707;
+    animation: blink 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+#redirect {
+    text-align: center;
+    width: 100%
+}
+
+.redirect-menu{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 50px;
+    font-family: 'Caesar Dressing', cursive;
+    text-decoration: none;
+    color: #312d2d;
+    text-shadow:
+            0 0 7px #312d2d,
+            0 0 42px #ff0000,
+            0 0 82px #a21c1c,
+            0 0 92px #7c0e0e,
+            0 0 102px #d20c2b,
+            0 0 151px #ff0707;
+    animation: blink 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.redirect-menu.intro {
+    position: relative;
+    top: 100px;
+}
+
+
+.heading {
+    padding-top: 50px;
+}
+
+.redirect-menu:hover {
+    color: #b03434;
+    text-shadow:
+            0 0 7px #ff0000,
+            0 0 100px #eaeaea;
+    animation: none;
+
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: Verdana, sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #5b5353;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.top {
+    position: relative;
+    top: 60px;
+}
+
+body p {
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+}
+
+@keyframes blink {
+    to{
+        text-shadow:
+                0 0 7px #312d2d,
+                0 0 30px #ff0000,
+                0 0 50px #a21c1c,
+                0 0 60px #7c0e0e,
+                0 0 90px #ff0707;
+
+    }
+}
